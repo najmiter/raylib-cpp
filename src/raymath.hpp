@@ -5,7 +5,8 @@
 #define RAYLIB_CPP_INCLUDE_RAYMATH_HPP_
 
 #ifdef __cplusplus
-extern "C" {
+extern "C"
+{
 #endif
 #ifndef RAYLIB_CPP_NO_MATH
 #ifndef BUILD_RAYLIB_CPP_MODULES
@@ -18,7 +19,7 @@ extern "C" {
 #pragma GCC diagnostic ignored "-Wmissing-field-initializers"
 #endif
 #define RAYMATH_DISABLE_CPP_OPERATORS
-#include "raymath.h" // NOLINT
+#include "../../raylib/src/raymath.h" // NOLINT
 #ifdef __GNUC__
 #pragma GCC diagnostic pop
 #endif

@@ -10,7 +10,7 @@ extern "C"
 #endif
 
 #ifndef RAYLIB_H_FILE
-#define RAYLIB_H_FILE "../raylib/src/raylib.h"
+#define RAYLIB_H_FILE "../../raylib/src/raylib.h"
 #endif
 
 #include RAYLIB_H_FILE // NOLINT
